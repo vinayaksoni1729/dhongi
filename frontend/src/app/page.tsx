@@ -1,10 +1,7 @@
 import React from 'react'
 import CreateJoin from './components/CreateJoin'
-import Create from './components/Create'
-import Join from './components/Join'
-import Test from './components/Test'
 
-const page = () => {
+const Page = () => {
   return (
     <div>
       <CreateJoin />
@@ -12,4 +9,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
